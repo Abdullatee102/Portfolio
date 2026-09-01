@@ -76,11 +76,24 @@
   opacity: 0.95;
 }
 
+/* Mobile */
 @media (max-width: 768px) {
   .hero-text h1 {
     font-size: 2.25rem;
   }
+
   .hero-text h2 {
     font-size: 1.25rem;
+  }
+
+  .hero-cta {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
   }
 }
