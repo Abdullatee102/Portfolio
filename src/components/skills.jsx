@@ -1,13 +1,27 @@
-import React from 'react';
-import { Smartphone, Globe, Database, Shield, Cpu, Terminal, Code2 } from 'lucide-react';
+import { Smartphone, Globe, Server, Database, Terminal, Shield, Code2 } from 'lucide-react';
 import './skills.css';
 
 export default function Skills() {
   const skillCategories = [
     {
+      title: "Blockchain & Web3",
+      icon: <Shield size={22} />,
+      skills: ["Solidity", "Foundry", "Wagmi", "Viem", "Ethers.js", "Smart Contracts", "Sepolia & BotChain"]
+    },
+    {
       title: "Mobile Development",
       icon: <Smartphone size={22} />,
-      skills: ["React Native", "Expo", "Zustand State Management", "AsyncStorage", "Mobile UI Layouts"]
+      skills: ["React Native", "Expo", "Zustand", "AsyncStorage", "Mobile UI Layouts"]
+    },
+    {
+      title: "Backend Architecture",
+      icon: <Server size={22} />,
+      skills: ["Node.js", "Express", "REST APIs", "Drizzle ORM", "Socket.IO", "Supabase & Firebase"]
+    },
+    {
+      title: "Database Management",
+      icon: <Database size={22} />,
+      skills: ["PostgreSQL", "Neon", "SQL Querying", "Relational Data Modeling", "Schema Migrations"]
     },
     {
       title: "Web Technologies",
@@ -15,24 +29,9 @@ export default function Skills() {
       skills: ["React.js", "Vite", "JavaScript (ES6+)", "HTML5 & CSS3", "Responsive Web Design"]
     },
     {
-      title: "Backend & Cloud Services",
-      icon: <Database size={22} />,
-      skills: ["Supabase", "Express.js", "Firebase", "Node.js", "REST APIs"]
-    },
-    {
-      title: "Tools & Version Control",
+      title: "Tools & Workflow",
       icon: <Terminal size={22} />,
-      skills: ["Git & GitHub", "Figma Design UI", "GitHub Desktop", "Android Studio"]
-    },
-    {
-      title: "Database Management",
-      icon: <Cpu size={22} />,
-      skills: ["SQL Querying", "PostgreSQL", "Relational Data Modeling"]
-    },
-    {
-      title: "Blockchain & Security",
-      icon: <Shield size={22} />,
-      skills: ["Solidity", "Remix IDE", "Smart Contracts", "Cybersecurity Fundamentals"]
+      skills: ["Git & GitHub", "Android Studio", "Foundry CLI", "Figma UI", "Vercel & Render"]
     }
   ];
 
@@ -41,7 +40,7 @@ export default function Skills() {
       <div className="container">
         <div className="section-title">
           <h2>Technical Expertise</h2>
-          <p>The tools, frameworks, and technologies I leverage to build digital products.</p>
+          <p>The tools, frameworks, and technologies I leverage across mobile, web, backend, and blockchain development.</p>
         </div>
 
         <div className="skills-grid">
