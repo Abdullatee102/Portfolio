@@ -10,9 +10,12 @@ export const blockchainProjects = [
     github: "https://github.com/Abdullatee102/CircleFlow",
     live: "https://circle-flow-9jh2.vercel.app",
     contract: "https://sepolia.etherscan.io/address/0xC403086b54EcE2148e3b520FA83896aBE70A5Bd2",
-    image: null,
+    image: "/circleFlow.jpg",
     imageAlt: "CircleFlow - Rotating Savings Protocol",
-    imageMetadata: null
+    imageMetadata: {
+      fileName: "circleFlow.jpg",
+      fileSize: "88.2 KB"
+    }
   },
   {
     id: "certificate-issuer",
@@ -26,9 +29,12 @@ export const blockchainProjects = [
     github: "https://github.com/Abdullatee102/On-Chain-Certificate-Issuer",
     live: "https://on-chain-certificate-issuer-1g7f.vercel.app",
     contract: "https://sepolia.etherscan.io/address/0xAB1479424D52c04d2037c91310b6Cbb122d75fEe",
-    image: null,
+    image: "/certIssuer.jpg",
     imageAlt: "On-Chain Certificate Issuer",
-    imageMetadata: null
+    imageMetadata: {
+      fileName: "certIssuer.jpg",
+      fileSize: "97.9 KB"
+    }
   },
   {
     id: "student-pay",
@@ -41,9 +47,12 @@ export const blockchainProjects = [
     github: "https://github.com/Abdullatee102/StudentPay",
     live: "https://student-pay-drik.vercel.app",
     contract: "https://scan.botchain.ai/address/0x59540a9B86c2bFB4F2591c840A6377484200d680",
-    image: null,
+    image: "/studentPay.jpg",
     imageAlt: "StudentPay Peer-to-Peer Escrow Platform",
-    imageMetadata: null
+    imageMetadata: {
+      fileName: "studentPay.jpg",
+      fileSize: "100.4 KB"
+    }
   }
 ];
 
@@ -57,6 +66,7 @@ export const mobileProjects = [
     tech: ["React Native", "Expo", "TypeScript", "Zustand"],
     status: "Active",
     github: "https://github.com/Abdullatee102/CodeAlpha_QuizApp",
+    apk: "https://expo.dev/artifacts/eas/0pz74YA1Ak0K17qw-FK2ZgvpFsA8lXzbEuziuezXQt0.apk",
     image: "/quiz.jpeg",
     imageAlt: "BrainBuzz Mobile Academic Assessment App Screenshot",
     imageMetadata: {
@@ -108,9 +118,12 @@ export const backendProjects = [
     tech: ["Node.js", "Express 5", "TypeScript", "PostgreSQL / Neon", "Drizzle ORM", "Socket.IO", "Zod", "Google GenAI"],
     status: "Completed / Active",
     github: "https://github.com/Abdullatee102/QuizBackend",
-    image: null,
+    image: "/backend.jpg",
     imageAlt: "QuizBackend Academic Assessment API",
-    imageMetadata: null
+    imageMetadata: {
+      fileName: "backend.jpg",
+      fileSize: "153.3 KB"
+    }
   }
 ];
 

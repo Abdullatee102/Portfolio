@@ -1,5 +1,5 @@
 import { useState, cloneElement } from 'react';
-import { Blocks, Smartphone, Server, Globe, ExternalLink, FileCode, Eye } from 'lucide-react';
+import { Blocks, Smartphone, Server, Globe, ExternalLink, FileCode, Eye, Download } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
 import {
   blockchainProjects,
@@ -194,6 +194,17 @@ export default function Projects() {
                           title="View Source Code on GitHub"
                         >
                           <FaGithub size={15} /> Code
+                        </a>
+                      )}
+                      {project.apk && (
+                        <a
+                          href={project.apk}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="project-link apk-link"
+                          title="Download and Install Android App (APK)"
+                        >
+                          <Download size={15} /> Install App
                         </a>
                       )}
                       {project.live && (

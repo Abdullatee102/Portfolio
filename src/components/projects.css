@@ -328,6 +328,16 @@
   color: var(--accent-color);
 }
 
+.apk-link:hover {
+  border-color: #10b981;
+  color: #10b981;
+}
+
+[data-theme="dark"] .apk-link:hover {
+  border-color: #34d399;
+  color: #34d399;
+}
+
 .live-link:hover {
   border-color: #0284c7;
   color: #0284c7;

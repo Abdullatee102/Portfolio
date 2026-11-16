@@ -23,7 +23,7 @@ A responsive developer portfolio web application built with React and Vite to sh
 * **StudentPay Escrow:** Peer-to-peer crypto escrow application on BotChain Mainnet engineered for students to securely transact for services, freelance tasks, and merchandise with trustless smart contract guarantees.
 
 ### 2. Mobile Development
-* **BrainBuzz (Quiz App):** Academic assessment and quiz application providing timed Computer-Based Test (CBT) practice, interactive answering interfaces, persistent progress tracking, and notifications.
+* **BrainBuzz (Quiz App):** Academic assessment and quiz application providing timed Computer-Based Test (CBT) practice, interactive answering interfaces, persistent progress tracking, and notifications. Available as an installable Android build (APK).
 * **LearningApp (E-learning):** Mobile learning platform featuring dynamic book cataloging, reading progress tracking, and community discussion boards backed by Supabase with Row Level Security.
 * **FitCount (Fitness Tracker):** Mobile activity tracker designed to log daily physical metrics, monitor workout routines, and securely manage user profiles via Firebase Authentication.
 
