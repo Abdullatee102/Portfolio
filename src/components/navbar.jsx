@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaXTwitter } from 'react-icons/fa6';
 import './navbar.css';
 
 export default function Navbar() {
-  const [thme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
